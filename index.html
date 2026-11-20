@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- EDITAR: título e descrição SEO -->
+<title>Auto Jeovaldo Oficina | Pintura, bate-chapa e polimento em Luanda</title>
+<meta name="description" content="Pintura e bate-chapa com acabamento de concessionária. Pintura, bate-chapa, polimento e pintura de jantes em Viana, Luanda. Pede orçamento pelo WhatsApp.">
+<meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_AO">
+<meta property="og:title" content="Auto Jeovaldo Oficina | Pintura e bate-chapa com acabamento de concessionária">
+<meta property="og:description" content="Pintura, bate-chapa e polimentos num só lugar, em Luanda. Pede orçamento pelo WhatsApp.">
+<!-- EDITAR: URL final do site e da imagem de partilha -->
+<meta property="og:url" content="https://autojeovaldo.vercel.app/">
+<meta property="og:image" content="https://autojeovaldo.vercel.app/hero.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%23000'/%3E%3Ccircle cx='12' cy='12' r='7' fill='none' stroke='%23e10600' stroke-width='2.5'/%3E%3Ccircle cx='12' cy='12' r='2.5' fill='%23e10600'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050505;--card:#121212;--line:#2a2a2a;--txt:#fff;--mut:#b4b7bc;--red:#e10600;--red2:#ff2a1f;--wa:#25d366}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--txt);font:400 1rem/1.55 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;background:var(--card);object-fit:cover}
+a{color:inherit}h1,h2,h3,p{margin:0}
+h1,h2,h3{font-weight:800;letter-spacing:-.02em;line-height:1.1}
+h1{font-size:clamp(2rem,7.5vw,3.6rem)}h2{font-size:clamp(1.55rem,4.6vw,2.3rem)}h3{font-size:1.05rem}
+.r{color:var(--red2)}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+section{padding:3.5rem 0}
+.ic{width:1.4em;height:1.4em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:#fff;color:#000;padding:.6rem 1rem;z-index:100}.skip:focus{left:0}
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.9rem 1.5rem;background:var(--red);color:#fff;font:600 .95rem/1 Inter,sans-serif;text-decoration:none;border:0;border-radius:999px;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--red2)}.btn.sm{padding:.65rem 1.1rem;font-size:.85rem}
+.btn.ghost{background:transparent;border:2px solid var(--red)}.btn.ghost:hover{background:var(--red)}
+/* header */
+header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(5,5,5,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:.8rem;height:68px}
+.logo{display:flex;align-items:center;gap:.6rem;text-decoration:none}
+.logo img{width:48px;height:48px}
+.logo span{font:800 .95rem/1.05 Inter,sans-serif;text-transform:uppercase;letter-spacing:.02em}
+.logo em{font-style:normal;color:var(--red2);display:block}
+nav{display:none;position:absolute;top:100%;left:0;right:0;background:#0b0b0b;border-bottom:1px solid var(--line);padding:.6rem 1.25rem 1rem}
+nav.open{display:grid}
+nav a{padding:.7rem 0;text-decoration:none;font-weight:500;font-size:.95rem;border-bottom:1px solid var(--line)}
+.hr{display:flex;align-items:center;gap:.5rem}
+.burger{background:none;border:1px solid var(--line);color:#fff;border-radius:10px;width:44px;height:44px;display:grid;place-items:center;cursor:pointer}
+@media(max-width:419px){.logo span{display:none}.hr .lbl{display:none}}
+@media(min-width:860px){.burger{display:none}nav,nav.open{display:flex;position:static;background:none;border:0;padding:0;gap:2rem}nav a{border:0;padding:.4rem 0;font-size:.9rem}header nav a:first-child{color:var(--red2);box-shadow:0 2px 0 var(--red)}}
+/* hero */
+.hero{position:relative;min-height:min(100svh,760px);display:flex;flex-direction:column;justify-content:flex-end;padding:6.5rem 0 0;overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.2) 40%,#000 100%),linear-gradient(90deg,rgba(0,0,0,.85),transparent 70%)}
+.hero::after{content:"";position:absolute;right:0;bottom:0;width:min(30vw,260px);height:60px;background:var(--red);clip-path:polygon(100% 0,100% 100%,0 100%)}
+.hero .wrap{position:relative;z-index:1}
+.hero h1{max-width:15ch}
+.hero .sub{font-size:1.1rem;color:#e4e5e7;margin:1rem 0 1.6rem;max-width:30ch}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:.3rem;margin-top:2.2rem;padding:1rem 0 1.4rem;border-top:1px solid rgba(255,255,255,.14)}
+.trust div{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.35rem;font-size:.68rem;line-height:1.25;color:var(--mut)}
+.trust b{display:block;color:#fff;font-weight:600}.trust .ic{color:var(--red2);width:1.9rem;height:1.9rem}
+@media(min-width:860px){.trust div{flex-direction:row;text-align:left;gap:.8rem;font-size:.85rem;padding:0 1rem;border-left:1px solid rgba(225,6,0,.5)}.trust div:first-child{border:0;padding-left:0}.hero .sub{max-width:none}}
+/* serviços com foto */
+.light{background:#f3f3f4;color:#111}
+.eyebrow{display:flex;align-items:center;gap:.6rem;color:var(--red);font-weight:700;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.6rem}
+.eyebrow::before{content:"";width:22px;height:4px;background:var(--red);border-radius:2px}
+.svc{display:grid;gap:.9rem;margin-top:1.6rem;grid-template-columns:repeat(2,1fr)}
+@media(min-width:860px){.svc{grid-template-columns:repeat(4,1fr);gap:1.1rem}}
+.sc{background:#0c0c0d;color:#fff;border-radius:12px;overflow:hidden;text-align:center;box-shadow:0 10px 24px rgba(0,0,0,.22)}
+.sc .ph{position:relative;aspect-ratio:4/3;background:#1a1a1a}
+.sc .ph img{width:100%;height:100%}
+.sc .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(12,12,13,.85))}
+.sc .ico{position:absolute;z-index:1;left:50%;bottom:-24px;transform:translateX(-50%);width:50px;height:50px;border-radius:50%;background:var(--red);border:3px solid #0c0c0d;display:grid;place-items:center}
+.sc .ico .ic{width:22px;height:22px}
+.sc .body{padding:2rem .9rem 1.3rem}
+.sc p{color:var(--mut);font-size:.82rem;margin-top:.4rem}
+.sc.noimg .ph{aspect-ratio:auto;background:none;padding-top:1.5rem}
+.sc.noimg .ph::after{display:none}
+.sc.noimg .ico{position:static;transform:none;margin:0 auto;width:64px;height:64px;border:0}
+.sc.noimg .ico .ic{width:30px;height:30px}
+.sc.noimg .body{padding-top:.9rem}
+/* antes e depois + galeria */
+.bsec{background:linear-gradient(115deg,#050505 55%,#4a0400 78%,#b80a02 100%)}
+.bhead{display:grid;gap:1rem}
+.bhead p{color:var(--mut);max-width:34ch;font-size:.92rem}
+@media(min-width:860px){.bhead{grid-template-columns:1fr 1fr;align-items:center}.bhead p{border-left:2px solid var(--line);padding-left:1.2rem}}
+.bas{display:grid;gap:.9rem;margin-top:2rem}
+@media(min-width:700px){.bas{grid-template-columns:repeat(3,1fr)}}
+.ba{margin:0;border:2px solid #e4e4e4;border-radius:6px;overflow:hidden;background:#161616}
+.ba img{width:100%;aspect-ratio:16/10;height:auto}
+.ba figcaption{display:flex;align-items:center;gap:.7rem;padding:.6rem .7rem;font-size:.85rem;color:#ddd}
+.ba b{background:var(--red);color:#fff;padding:.3rem .8rem;border-radius:6px;font-size:.72rem;letter-spacing:.05em;text-transform:uppercase}
+.ba .ic{margin-left:auto;width:1.1em;height:1.1em}
+.mais{margin-top:3rem}
+.mais h3{font-size:1.25rem;margin-bottom:1rem}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:.7rem}
+@media(min-width:700px){.gal{grid-template-columns:repeat(3,1fr);gap:.9rem}}
+.gi{position:relative;padding:0;border:0;border-radius:8px;overflow:hidden;cursor:zoom-in;aspect-ratio:4/3;background:var(--card)}
+.gi[hidden]{display:none}
+.gi img{width:100%;height:100%;transition:transform .4s}
+.gi:hover img{transform:scale(1.05)}
+.gi::after{content:"";position:absolute;inset:0;border:2px solid transparent;border-radius:8px;transition:border-color .2s}
+.gi:hover::after,.gi:focus-visible::after{border-color:var(--red2)}
+.more{display:flex;justify-content:center;margin-top:1.6rem}
+.more[hidden]{display:none}
+/* lightbox */
+#lb{border:0;padding:1rem;background:transparent;color:#fff;width:100%;max-width:100vw;height:100dvh;max-height:100dvh;margin:0}
+#lb[open]{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8rem}
+#lb::backdrop{background:rgba(0,0,0,.94)}
+#lb img{max-width:100%;max-height:78dvh;object-fit:contain;background:none;border-radius:6px}
+.lb-b{position:absolute;background:rgba(255,255,255,.14);border:0;color:#fff;width:48px;height:48px;border-radius:50%;font-size:1.7rem;line-height:1;cursor:pointer;display:grid;place-items:center}
+.lb-b:hover{background:var(--red)}
+.lbx{top:1rem;right:1rem}.lbp{left:.6rem;top:50%}.lbn{right:.6rem;top:50%}
+#lb .cap{color:var(--mut);font-size:.9rem;text-align:center}
+/* seguidores e cta */
+.strip{background:#0a0a0a;border-block:1px solid var(--line);padding:2rem 0}
+.strip .wrap{display:grid;gap:1.6rem}
+@media(min-width:860px){.strip .wrap{grid-template-columns:1fr 1fr}.strip .wrap>a{border-left:1px solid var(--red);padding-left:2rem}}
+.stat{display:flex;align-items:center;gap:1.1rem}.stat>.ic{width:3.4rem;height:3.4rem;color:var(--red2)}
+.stat p{font-size:1.15rem;line-height:1.25}.stat b{font-size:1.9rem;font-weight:800;display:block}
+.soc{display:flex;gap:.6rem;margin-top:.6rem}
+.soc a{width:2.2rem;height:2.2rem;border-radius:50%;background:#fff;color:#000;display:grid;place-items:center}.soc .ic{width:1.1rem;height:1.1rem}
+.cta{display:flex;align-items:center;gap:1.1rem;text-decoration:none}.cta>.ic{width:3.4rem;height:3.4rem;color:var(--red2)}
+.cta h3{font-size:1.3rem}.cta p{color:var(--mut);font-size:.9rem;margin-top:.2rem}
+.cta i{display:block;width:48px;height:3px;background:var(--red);margin-top:.6rem}
+/* local */
+.loc{display:grid;gap:1.4rem;margin-top:1.6rem}
+@media(min-width:860px){.loc{grid-template-columns:1fr 1.4fr}}
+.info{display:grid;gap:1.2rem;align-content:start}.info div{display:flex;gap:1rem}.info .ic{color:var(--red2);margin-top:.2rem}
+.info b{display:block;font-weight:700}.info span{color:var(--mut)}.info a{color:#fff}
+.map{min-height:300px;border-radius:10px;overflow:hidden;background:var(--card)}.map iframe{width:100%;height:100%;min-height:300px;border:0}
+/* contacto e rodapé */
+.cbar{background:#0a0a0a;border-top:1px solid var(--line);padding:1.6rem 0}
+.cbar .wrap{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.cbar a{display:flex;align-items:center;gap:.8rem;text-decoration:none;font-size:.95rem;line-height:1.3}
+.cbar .ic{width:1.9rem;height:1.9rem;color:var(--red2)}.cbar small{display:block;color:var(--mut);font-size:.75rem}
+footer{background:#000;padding:1.4rem 0 6rem;border-top:1px solid var(--line)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:center;justify-content:space-between}
+footer img{width:56px;height:56px;border-radius:50%}
+.script{font:500 1.5rem Caveat,cursive;color:#e8e8e8}
+footer nav{display:flex;position:static;background:none;border:0;padding:0;gap:1.2rem}
+footer nav a{border:0;padding:0;box-shadow:none;color:var(--mut);font-size:.82rem}
+.copy{width:100%;color:var(--mut);font-size:.75rem}
+.fab{position:fixed;right:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.5)}.fab .ic{width:30px;height:30px}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}.rv.on{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.gi img{transition:none}}
+</style>
+<noscript><style>.rv{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+<a class="skip" href="#servicos">Saltar para o conteúdo</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.8 7L3 21l2-5.2A8 8 0 1 1 21 12z"/><path d="M9 8.5c.5 2 2.5 4.5 5.5 5.5l1.5-1.5-2-1-1 .8c-1-.4-1.8-1.2-2.2-2.2l.8-1-1-2z"/></symbol>
+<symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+<symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16v-5l2-5h10l2 5v5M3 16h18M7 19v-3M17 19v-3M8 12h8"/></symbol>
+<symbol id="i-spray" viewBox="0 0 24 24"><path d="M8 9h6v12H8zM9 9V6h4v3M16 8h2M16 11h3M16 14h2"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21l1.4-7L2 9.3l7-.8z"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20v-1.5A4.5 4.5 0 0 1 9.5 14h5a4.5 4.5 0 0 1 4.5 4.5V20"/><circle cx="4.5" cy="10" r="2"/><circle cx="19.5" cy="10" r="2"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></symbol>
+<symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#inicio" aria-label="Auto Jeovaldo Oficina, início"><img src="logo.png" alt="Logo Auto Jeovaldo Oficina" width="48" height="48"><span>Auto Jeovaldo<em>Oficina</em></span></a>
+    <nav id="menu" aria-label="Principal"><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#galeria">Galeria</a><a href="#local">Localização</a><a href="#contacto">Contacto</a></nav>
+    <div class="hr">
+      <a class="btn sm" href="https://wa.me/244940420757?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg><span class="lbl">Pedir orçamento</span></a>
+      <button class="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><svg class="ic" aria-hidden="true"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <img src="hero.png" alt="Viatura escura numa oficina moderna com iluminação vermelha" width="1600" height="1000" fetchpriority="high">
+  <div class="wrap">
+    <!-- EDITAR: título e subtítulo -->
+    <h1>Pintura e bate-chapa com acabamento de <span class="r">concessionária</span></h1>
+    <strong><p class="sub">Qualidade, rapidez e preços justos. </strong> Pintura, bate-chapa e polimentos num só lugar.</p>
+    <a class="btn" href="https://wa.me/244940420757?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento">Pedir orçamento no WhatsApp<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></a>
+    <div class="trust">
+      <div><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg><span><b>Serviço de qualidade</b>e garantia</span></div>
+      <div><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span><b>Atendimento rápido</b>e eficiente</span></div>
+      <div><svg class="ic" aria-hidden="true"><use href="#i-gear"/></svg><span><b>Profissionais</b>experientes</span></div>
+      <div><svg class="ic" aria-hidden="true"><use href="#i-car"/></svg><span><b>Equipamentos</b>modernos</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="servicos">
+  <div class="wrap">
+    <p class="eyebrow rv">Nossos serviços</p>
+    <h2 class="rv">Tudo para o seu carro<br>em um só lugar</h2>
+    <!-- EDITAR: serviços, descrições e fotos (servico-batechapa.png, servico-pintura.png, servico-polimento.png). Sem foto, o cartão mostra só o ícone. -->
+    <div class="svc">
+      <article class="sc rv"><div class="ph"><img src="servico-batechapa.png" alt="Reparação de bate-chapa numa viatura na oficina" width="600" height="450"><div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-car"/></svg></div></div><div class="body"><h3>Bate-chapa</h3><p>Reparação de amassados, alinhamento de carroçaria e fibragem.</p></div></article>
+      <article class="sc rv"><div class="ph"><img src="servico-jantes.png" alt="Pintura de jantes de uma viatura" width="600" height="450"><div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-gear"/></svg></div></div><div class="body"><h3>Pintura de jantes</h3><p>Pintura e renovação de jantes, com acabamento duradouro.</p></div></article>
+      <article class="sc rv"><div class="ph"><img src="servico-pintura.png" alt="Pintura de uma viatura na cabine da oficina" width="600" height="450"><div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-spray"/></svg></div></div><div class="body"><h3>Pintura automóvel</h3><p>Pintura profissional da viatura, com alto padrão de qualidade.</p></div></article>
+      <article class="sc rv"><div class="ph"><img src="servico-polimento.png" alt="Polimento do capô de uma viatura" width="600" height="450"><div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-star"/></svg></div></div><div class="body"><h3>Polimentos</h3><p>Restaura o brilho e valoriza o seu carro.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="bsec" id="galeria">
+  <div class="wrap">
+    <div class="bhead">
+      <div><p class="eyebrow rv">Antes e depois</p><h2 class="rv">Veja a diferença<br>que faz a nossa <span class="r">oficina.</span></h2></div>
+      <p class="rv">De carros danificados a veículos como novos. Aqui o seu carro recebe o cuidado que merece.</p>
+    </div>
+    <!-- EDITAR: fotos (antes.png, durante.png, depois.png) e legendas -->
+    <div class="bas">
+      <figure class="ba rv"><img src="antes.png" alt="Viatura com massa na carroçaria antes da pintura" width="600" height="375" loading="lazy"><figcaption><b>Antes</b>Com massa<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></figcaption></figure>
+      <figure class="ba rv"><img src="durante.png" alt="Viatura protegida com plástico e fita durante a pintura" width="600" height="375" loading="lazy"><figcaption><b>Durante</b>Em pintura<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></figcaption></figure>
+      <figure class="ba rv"><img src="depois.png" alt="Viatura preta com pintura final e acabamento brilhante" width="600" height="375" loading="lazy"><figcaption><b>Depois</b>Finalizado<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></figcaption></figure>
+    </div>
+
+    <!-- EDITAR: mais trabalhos. Uma linha por foto (galeria-01.png, galeria-02.png...). Apaga as linhas das fotos que não tens. Mostra 6 e o resto abre em "Ver mais", na mesma página. -->
+    <div class="mais" id="maisTrabalhos">
+      <h3 class="rv">Mais trabalhos da oficina</h3>
+      <div class="gal" id="gal">
+        <button type="button" class="gi" data-full="galeria-01.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-01.png" alt="Trabalho realizado na oficina, foto 1" width="600" height="450" loading="lazy"></button>
+        <button type="button" class="gi" data-full="galeria-02.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-02.png" alt="Trabalho realizado na oficina, foto 2" width="600" height="450" loading="lazy"></button>
+        <button type="button" class="gi" data-full="galeria-03.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-03.png" alt="Trabalho realizado na oficina, foto 3" width="600" height="450" loading="lazy"></button>
+        <button type="button" class="gi" data-full="galeria-04.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-04.png" alt="Trabalho realizado na oficina, foto 4" width="600" height="450" loading="lazy"></button>
+        <button type="button" class="gi" data-full="galeria-05.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-05.png" alt="Trabalho realizado na oficina, foto 5" width="600" height="450" loading="lazy"></button>
+        <button type="button" class="gi" data-full="galeria-06.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-06.png" alt="Trabalho realizado na oficina, foto 6" width="600" height="450" loading="lazy"></button>
+        <button type="button" class="gi" data-full="galeria-07.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-07.png" alt="Trabalho realizado na oficina, foto 7" width="600" height="450" loading="lazy"></button>
+        <button type="button" class="gi" data-full="galeria-08.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-08.png" alt="Trabalho realizado na oficina, foto 8" width="600" height="450" loading="lazy"></button>
+        <button type="button" class="gi" data-full="galeria-09.png" data-cap="Trabalho realizado na Auto Jeovaldo"><img src="galeria-09.png" alt="Trabalho realizado na oficina, foto 9" width="600" height="450" loading="lazy"></button>
+      </div>
+      <div class="more" id="more" hidden><button type="button" class="btn ghost" id="moreBtn" aria-controls="gal">Ver mais trabalhos<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></button></div>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <div class="stat rv"><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>
+      <div><p><b>6,1 mil</b>seguidores nas redes</p>
+      <div class="soc">
+        <a href="https://instagram.com/auto_jeovaldo" target="_blank" rel="noopener" aria-label="Instagram da Auto Jeovaldo Oficina"><svg class="ic" aria-hidden="true"><use href="#i-ig"/></svg></a>
+        <!-- EDITAR: link da página de Facebook -->
+        <a href="https://www.facebook.com/autojeovaldo" target="_blank" rel="noopener" aria-label="Facebook da Auto Jeovaldo Oficina"><svg class="ic" aria-hidden="true"><use href="#i-fb"/></svg></a>
+      </div></div>
+    </div>
+    <a class="cta rv" href="https://wa.me/244940420757?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg><div><h3>Peça orçamento<br>sem compromisso</h3><p>Estamos prontos para atender você!</p><i></i></div></a>
+  </div>
+</div>
+
+<section id="local" style="background:var(--card)">
+  <div class="wrap">
+    <p class="eyebrow rv">Localização</p>
+    <h2 class="rv">Onde estamos</h2>
+    <div class="loc">
+      <div class="info rv">
+        <!-- EDITAR: morada e horário -->
+        <div><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><p><b>Morada</b><span>Viana, por detrás da Vila Chinesa, Luanda<br><a href="https://www.google.com/maps/search/?api=1&amp;query=Auto+Jeovaldo+Oficina+Viana+Luanda" target="_blank" rel="noopener">Abrir no Google Maps</a></span></p></div>
+        <div><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><p><b>Horário</b><span>Segunda a sexta: 07h30 às 17h00<br>Sábado: 07h30 às 14h00<br>Domingo: fechado</span></p></div>
+      </div>
+      <!-- EDITAR: para o ponto exacto, no Google Maps usa Partilhar, Incorporar mapa, e troca o src do iframe -->
+      <div class="map rv" role="region" aria-label="Mapa da localização"><iframe src="https://www.google.com/maps?q=Auto+Jeovaldo+Oficina+Viana+Luanda&amp;output=embed" title="Mapa: Auto Jeovaldo Oficina, Viana, Luanda" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="cbar" id="contacto">
+  <div class="wrap">
+    <a href="https://wa.me/244940420757?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg><span><b>+244 940 420 757</b><small>Fale connosco no WhatsApp</small></span></a>
+    <a href="https://instagram.com/auto_jeovaldo" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-ig"/></svg><span><b>@auto_jeovaldo</b><small>Siga-nos no Instagram</small></span></a>
+    <!-- EDITAR: confirmar o email com o cliente -->
+    <a href="mailto:autojeovaldoficina@gmail.com"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg><span><b>autojeovaldoficina@gmail.com</b><small>Envie-nos um email</small></span></a>
+    <a href="#local"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span><b>Viana, Luanda</b><small>Por detrás da Vila Chinesa</small></span></a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <img src="logo.png" alt="Logo Auto Jeovaldo Oficina" width="56" height="56" loading="lazy">
+    <p class="script">Seu carro em boas mãos!</p>
+    <nav aria-label="Rodapé"><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#galeria">Galeria</a><a href="#local">Localização</a></nav>
+    <p class="copy">© <span id="ano">2026</span> Auto Jeovaldo Oficina. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/244940420757?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento" aria-label="Falar no WhatsApp"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg></a>
+
+<dialog id="lb" aria-label="Foto ampliada">
+  <button type="button" class="lb-b lbx" aria-label="Fechar">&times;</button>
+  <button type="button" class="lb-b lbp" aria-label="Foto anterior">&#8249;</button>
+  <img alt="">
+  <button type="button" class="lb-b lbn" aria-label="Foto seguinte">&#8250;</button>
+  <p class="cap"></p>
+</dialog>
+
+<script>
+(function(){
+  var $=function(s,c){return (c||document).querySelector(s)};
+  var $$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+
+  /* menu */
+  var burger=$('.burger'),menu=$('#menu');
+  burger.addEventListener('click',function(){var o=menu.classList.toggle('open');burger.setAttribute('aria-expanded',o)});
+  $$('a',menu).forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('open');burger.setAttribute('aria-expanded','false')})});
+
+  /* entrada suave ao fazer scroll */
+  var rv=$$('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.12});
+    rv.forEach(function(el){io.observe(el)});
+  }else{rv.forEach(function(el){el.classList.add('on')})}
+
+  /* se a foto não existir com uma extensão, tenta a outra (.jpg/.png) antes de desistir */
+  function tryAlt(img){
+    if(img.dataset.alt)return false;
+    var s=img.getAttribute('src')||'',m=s.match(/\.(jpe?g|png)$/i);
+    if(!m)return false;
+    img.dataset.alt='1';
+    img.src=s.replace(/\.(jpe?g|png)$/i,m[1].toLowerCase()==='png'?'.jpg':'.png');
+    return true;
+  }
+
+  /* serviços: se a foto não existir, o cartão fica só com o ícone */
+  $$('.sc .ph img').forEach(function(img){
+    var miss=function(){if(tryAlt(img))return;var c=img.closest('.sc');if(c)c.classList.add('noimg');img.remove()};
+    img.addEventListener('error',miss);
+    if(img.complete&&img.naturalWidth===0)miss();
+  });
+
+  /* galeria: 6 visíveis, "Ver mais" revela o resto na mesma página */
+  var VIS=6,expanded=false,more=$('#more'),moreBtn=$('#moreBtn'),box=$('#maisTrabalhos');
+  function layout(){
+    var g=$$('.gi');
+    g.forEach(function(b,i){b.hidden=!expanded&&i>=VIS});
+    more.hidden=expanded||g.length<=VIS;
+    box.hidden=g.length===0;
+  }
+  $$('.gi img').forEach(function(im){
+    var miss=function(){
+      if(tryAlt(im)){var b0=im.closest('.gi');if(b0)b0.setAttribute('data-full',im.getAttribute('src'));return}
+      var b=im.closest('.gi');if(b)b.remove();layout()};
+    im.addEventListener('error',miss);
+    if(im.complete&&im.naturalWidth===0&&im.currentSrc)miss();
+  });
+  moreBtn.addEventListener('click',function(){expanded=true;layout();var h=$$('.gi')[VIS];if(h)h.focus()});
+  layout();
+
+  /* lightbox: foto ampliada com setas */
+  var lb=$('#lb'),lbi=$('img',lb),lbc=$('.cap',lb),cur=0;
+  function visible(){return $$('.gi').filter(function(b){return !b.hidden})}
+  function show(i){
+    var l=visible();if(!l.length)return;
+    cur=(i+l.length)%l.length;
+    var b=l[cur];lbi.src=b.getAttribute('data-full');lbi.alt=$('img',b).alt;lbc.textContent=b.getAttribute('data-cap')||'';
+  }
+  document.addEventListener('click',function(e){
+    var b=e.target.closest&&e.target.closest('.gi');
+    if(!b||typeof lb.showModal!=='function')return;
+    lb.showModal();show(visible().indexOf(b));
+  });
+  $('.lbx',lb).addEventListener('click',function(){lb.close()});
+  $('.lbp',lb).addEventListener('click',function(){show(cur-1)});
+  $('.lbn',lb).addEventListener('click',function(){show(cur+1)});
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.close()});
+  lb.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+
+  /* ano no rodapé */
+  $('#ano').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
